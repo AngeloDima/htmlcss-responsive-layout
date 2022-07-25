@@ -136,7 +136,7 @@ footer{
 
 section{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 
@@ -152,16 +152,42 @@ section{
 
 .card:first-child{
     width: 66%;
-    height: 40vh;
+    height: 35vh;
     background-color: #b5ddff;
 }
 
 .card{
     width: 32%;
-    height: 40vh;
+    height: 35vh;
     background-color: #b5ddff;
     border-radius: 20px;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 
 /* ***Content card*** */
+
+.cardSXG{
+    width: 50%;
+    height: 100%;
+    background-color: #9792e4;
+}
+
+.cardDXG{
+    width: 50%;
+    height: 100%;
+    background-color: #453bc9;
+}
+
+.cardUP{
+    width: 100%;
+    height: 50%;
+    background-color: #9792e4;
+}
+
+.cardDOWN{
+    width: 100%;
+    height: 50%;
+    background-color: #453bc9;
+}
