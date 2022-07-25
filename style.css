@@ -63,6 +63,11 @@ a{
 }
 
 
+.white{
+    background-color: white;
+}
+
+
 
 
 /* ****Conteiner Principali**** */
@@ -133,3 +138,30 @@ section{
     width: 100%;
     height: 100vh;
 }
+
+
+.mainP-content{
+    width: 70%;
+    height: 90%;
+    /* background-color: rgba(255, 0, 0, 0.445); */
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.card:first-child{
+    width: 66%;
+    height: 40vh;
+    background-color: #b5ddff;
+}
+
+.card{
+    width: 32%;
+    height: 40vh;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+
+/* ***Content card*** */
