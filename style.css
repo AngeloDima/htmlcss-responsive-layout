@@ -162,7 +162,7 @@ section{
 
 .card{
     width: 32%;
-    height: 40vh;
+    height: 38vh;
     background-color: #b5ddff;
     border-radius: 20px;
     justify-content: space-between;
@@ -173,7 +173,7 @@ section{
 /* ***Content card*** */
 
 .cardSXG{
-    width: 50%;
+    width: 70%;
     height: 100%;
     /* background-color: #9792e4; */
     padding-left: 20px;
@@ -186,7 +186,7 @@ section{
 }
 
 .cardSXG p{
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
     font-weight: 600;
     color: #5a6e7f;
@@ -203,25 +203,50 @@ section{
 }
 
 .cardDXG{
-    width: 50%;
-    height: 100%;
+    flex-grow: 1;
     /* background-color: #453bc9; */
     align-items: flex-end;
     justify-content: center;
+    margin-right: 50px;
 }
 
 .cardDXG img{
-    max-height: 90%;
+    max-height: 80%;
 }
 
 .cardUP{
     width: 100%;
-    height: 50%;
-    background-color: #9792e4;
+    height: 30%;
+    /* background-color: #9792e4; */
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.cardUP svg{
+    max-height: 80%;
+    fill: #0084fd;
+    
 }
 
 .cardDOWN{
     width: 100%;
-    height: 50%;
-    background-color: #453bc9;
+    height: 70%;
+    /* background-color: #453bc9; */
+
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cardDOWN h2{
+    margin: 25px 0px;
+    color: #0084fd;
+}
+
+
+.cardDOWN p{
+    color: #5a6e7f;
+    margin: 0px 16px;
+    text-align: center;
 }
