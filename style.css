@@ -939,12 +939,85 @@ section {
 }
 
 
+
+
+
+
 /* section 2  */
 
 
 .content1Violet {
     width: 90%;
     margin: 30px 0px;
+}
+
+
+
+
+
+
+/* section 3 */
+
+
+.content-section3 {
+    margin: 40px 0px;
+}
+
+
+.content-section3 p {
+    font-size: 1rem;
+    margin: 0px 50px;
+
+}
+
+.barre-sec3 {
+    width: 64%;
+    /* height: 79%; */
+    /* display: flex; */
+    /* background-color: aqua; */
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.card-sec3 {
+    margin-top: 50px;
+    width: 100%;
+    /* height: 30%; */
+    border-radius: 35px;
+    background-color: #9792e4;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.SX-sec3 {
+    width: 60%;
+    /* height: 103%; */
+    /* background-color: #5a6e7f; */
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+.SX-sec3 img {
+    width: 90%;
+}
+
+.DX-sec3 {
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* font-size: 1.2rem; */
+}
+
+.content-section3 p {
+    font-size: 1rem;
+}
+
+.DX-sec3 h2 {
+    margin-left: 25%;
 }
 
 }
