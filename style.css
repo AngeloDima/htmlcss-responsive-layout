@@ -632,6 +632,27 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* *************MEDIA SCREEN************ */
 
 @media screen and (max-width: 900px){
@@ -850,7 +871,13 @@ footer{
 
 
 
+@media screen and (max-width: 600px){
 
+.header-info-dx{
+    display: none;
+}
+
+}
 
 
 
