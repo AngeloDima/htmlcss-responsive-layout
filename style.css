@@ -1114,6 +1114,19 @@ section:nth-child(5) {
 
 /* ******Section 6****** */
 
+section:last-child {
+    height: 70vh;
+}
+
+.content-sec6 h2 {
+    margin: 0px 10px 15px 10px;
+}
+
+
+.content-sec6 p {
+    margin: 15px 0px;
+}
+
 }
 
 
