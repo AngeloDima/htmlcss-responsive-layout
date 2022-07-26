@@ -129,6 +129,9 @@ footer{
     color: black;
 }
 
+.header-info-dx{
+    display: block;
+}
 
 
 
@@ -598,7 +601,8 @@ footer{
 
 .footer-content{
     /* background-color: red; */
-    width: 21%;
+    width: 40%;
+    text-align: center;
 
 }
 
@@ -614,4 +618,70 @@ footer{
 .footer-content a{
     text-decoration: underline;
     color: #6e00ff;
+}
+
+
+
+
+#prova{
+    display: none;
+    max-width: 5%;
+}
+
+
+
+
+
+/* *************MEDIA SCREEN************ */
+
+@media screen and (max-width: 900px){
+    .mainP-content{
+        width: 70%;
+        height: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .cardSXG{
+     /* width: 70%; */
+    /* height: 100%; */
+    /* background-color: #9792e4; */
+    padding-left: 20px;
+    }
+
+    .card:first-child{
+        flex-direction: column;
+    }
+
+    .cardSXG h2{
+        font-size: 1rem;
+    }
+
+    .cardSXG p{
+        font-size: 0.7rem;
+    }
+
+    .cardSXG input{
+        padding: 10px 45px;
+        margin-bottom: 10px;
+    }
+
+    .cardDXG{
+        /* flex-grow: 1; */
+        /* background-color: #453bc9; */
+        align-items: flex-start;
+        /* justify-content: center; */
+        /* margin-left: 50px; */
+        max-width: 58%;
+    }
+
+    .cardDXG img{
+        max-height: 17%;
+    }
+
+
+    .cardDOWN p{
+        font-size: 0.8rem;
+    }
 }
