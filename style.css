@@ -749,4 +749,46 @@ footer{
         justify-content: space-between;
     }
 
+
+
+
+
+    /***** section3 *****/
+
+    .content-section4 {
+        width: 85%;
+    }
+
+    .card-sec4 {
+        width: 45%;
+        height: 30%;
+    }
+
+    .card-sec4 h2 {
+        margin: 5px 30px 10px;
+        font-size: 3.5rem;
+    }
+
+    .card-sec4 h3 {
+        margin: 0px 30px 6px;
+    }
+
+    .card-sec4 p {
+        margin: 7px 30px 7px;
+        font-size: 0.75rem;
+    }
+
+    .card-sec4 input {
+        padding: 10px 50px;
+        margin: 0px 30px 13px;
+
+    }
 }
+
+
+
+
+
+
+
+
