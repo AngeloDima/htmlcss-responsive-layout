@@ -147,6 +147,11 @@ section:nth-child(5){
     height: 80vh;
 }
 
+section:last-child{
+    height: 60vh;
+}
+
+
 
 /* section 1 */
 .mainP-content{
@@ -524,4 +529,57 @@ section:nth-child(5){
     align-self: flex-start;
     background-color: #9792e4;;
     color: white;
+}
+
+
+/* ****Section 6**** */
+
+.content-sec6{
+    width: 50%;
+    /* height: 80%;
+    background-color: red; */
+}
+
+.content-sec6 p{
+    color: #d5d4f4;
+    font-size: 1.28rem;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.content-sec6 h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.content-sec6 h1{
+    color: #fdc15f;
+    font-size: 5.2rem;
+    text-align: center;
+}
+
+.content-sec6 p:nth-child(4){
+    text-align: center;
+    margin: 24px 24%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.content-sec6 input{
+    align-self: center;
+    padding: 15px 90px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: #9792e4;
+}
+
+
+.content-sec6 p:last-child{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
 }
