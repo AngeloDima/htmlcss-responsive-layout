@@ -635,6 +635,12 @@ footer{
 /* *************MEDIA SCREEN************ */
 
 @media screen and (max-width: 900px){
+
+
+
+    /* MAIN P */
+
+
     .mainP-content{
         width: 70%;
         height: 80%;
@@ -650,8 +656,15 @@ footer{
     padding-left: 20px;
     }
 
+    .card{
+        height: 54%;
+        margin-bottom: 10px;
+    }
+
+
     .card:first-child{
         flex-direction: column;
+        height: 43vh;
     }
 
     .cardSXG h2{
@@ -677,11 +690,39 @@ footer{
     }
 
     .cardDXG img{
-        max-height: 17%;
+        max-height: 23%;
     }
 
 
     .cardDOWN p{
         font-size: 0.8rem;
+    }
+
+
+    /* Section 1 */
+
+    .content1Violet{
+            /* justify-content: unset; */
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .SX-section-2 {
+        width: 80%;
+    }
+
+    .SX-section-2 h2 {
+        margin-top: 2px;
+        margin-bottom: 6px;
+    }
+
+
+    .SX-section-2 p {
+        font-size: 0.6rem;
+    }
+
+    .DX-section-2{
+        width: 70%;
+        margin-top: 10%;
     }
 }
