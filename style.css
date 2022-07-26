@@ -658,6 +658,13 @@ footer{
 @media screen and (max-width: 900px){
 
 
+    /* header */
+
+.header-info-dx{
+    display: none;
+}
+
+
 
     /* MAIN P */
 
@@ -917,8 +924,8 @@ section {
 
 
 .cardDXG img {
-    max-height: 49%;
-    margin-left: 55%;
+    max-height: 70vw;
+    margin-left: 60%;
 }
 
 
