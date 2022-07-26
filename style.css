@@ -1020,9 +1020,38 @@ section {
     margin-left: 25%;
 }
 
+
+
+/* ********section 4***** */
+
+
+.content-section4 {
+    flex-direction: column;
+}
+
+.card-sec4 {
+    width: 80%;
+    margin: 20px 0px;
+    /* height: 30%; */
+}
+
+.card-sec4 p {
+    margin: 30px 30px 30px;
+    font-size: 1.1rem;
+}
+
+#grande {
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+    margin: 60px 50px 20px;
 }
 
 
+
+
+
+}
 
 
 
