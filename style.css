@@ -699,6 +699,12 @@ footer{
     }
 
 
+
+
+
+
+
+
     /* Section 1 */
 
     .content1Violet{
@@ -725,4 +731,22 @@ footer{
         width: 70%;
         margin-top: 10%;
     }
+
+
+
+
+
+
+
+    /* *****Section 2****** */
+
+
+    .content-section3 {
+        width: 95%;
+        height: 90%;
+        /* background-color: rgba(255, 0, 0, 0.445); */
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 }
