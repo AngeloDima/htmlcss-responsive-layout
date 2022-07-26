@@ -877,6 +877,68 @@ footer{
     display: none;
 }
 
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.mainP-content {
+    width: 65%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card:first-child {
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    margin-top: 70px
+}
+
+.cardSXG {
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: #9792e4; */
+    padding-left: 20px;
+}
+
+.cardSXG h2 {
+    font-size: 1.5rem;
+    text-align: inherit;
+}
+
+.cardSXG p {
+    font-size: 1rem;
+    text-align: inherit;
+    margin-right: 22%;
+}
+
+
+.cardDXG img {
+    max-height: 49%;
+    margin-left: 55%;
+}
+
+
+.card {
+    height: 54%;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.cardUP {
+    width: 46%;
+    height: 30%;
+    margin: 5% auto;
+}
+
+.cardDOWN p {
+    font-size: 1rem;
+}
+
+
 }
 
 
