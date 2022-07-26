@@ -705,7 +705,7 @@ footer{
 
 
 
-    /* Section 1 */
+    /* Section 2 */
 
     .content1Violet{
             /* justify-content: unset; */
@@ -738,7 +738,7 @@ footer{
 
 
 
-    /* *****Section 2****** */
+    /* *****Section 3****** */
 
 
     .content-section3 {
@@ -753,7 +753,7 @@ footer{
 
 
 
-    /***** section3 *****/
+    /***** section4 *****/
 
     .content-section4 {
         width: 85%;
@@ -783,7 +783,73 @@ footer{
         margin: 0px 30px 13px;
 
     }
+
+
+
+
+
+
+
+
+
+
+    /* ****section 5***** */
+
+
+.SX-sec5 p {
+    font-size: 1.1rem;
+    color: #5a6e7f;
+    text-align: start;
+    margin: 19px 75px 0px 0px;
 }
+
+.content-sec5 {
+    width: 89%;
+    height: 70%;
+    /* background-color: rgba(255, 0, 0, 0.493); */
+}
+
+.DX-sec5 h2 {
+    color: #9792e4;
+    font-size: 1.4rem;
+    text-align: start;
+    margin: 5px 0px 5px 15px;
+}
+
+
+.DX-sec5 input {
+    margin: 5px 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* *****Section 6****** */
+
+.content-sec6 {
+    width: 100%;
+}
+
+
+
+
+/* **Footer** */
+
+.footer-content {
+    width: 62%;
+}
+}
+
+
+
+
+
 
 
 
